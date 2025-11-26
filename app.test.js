@@ -1,22 +1,20 @@
 const request = require('supertest');
-const app = require('./app');
+const { app, server } = require('./app');
 
 describe('Express App Tests', () => {
-
-  // describe('GET /', () => {
-  //   test('should return Hello World', async () => {
-  //     const res = await request(app).get('/');
-  //     expect(res.statusCode).toBe(200);
-  //     expect(res.text).toBe('Hello World');
-  //   });
-  // });
-
-  describe('GET /health', () => {
-    test('should return healthy status', async () => {
-      const response = await request(app).get('/health');
-      expect(response.statusCode).toBe(200);
-      expect(response.body).toEqual({ status: 'healthy' });
-    });
+  afterAll((done) => {
+    server.close(done);
   });
 
+  test('GET / should return Hello World message', async () => {
+    const response = await request(app).get('/');
+    expect(response.statusCode).toBe(200);
+    expect(response.body).toEqual({ message: 'Hello World!' });
+  });
+
+  test('GET /health should return healthy status', async () => {
+    const response = await request(app).get('/health');
+    expect(response.statusCode).toBe(200);
+    expect(response.body).toEqual({ status: 'healthy' });
+  });
 });
