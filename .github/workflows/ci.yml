@@ -36,7 +36,7 @@ jobs:
           push: true
           tags: |
             anchangwan/hello-server-for-cicd-test-20251126:latest
-            anchangwan/hello-server-for-cicd-test-20251126:latest:${{ github.sha }}
+            captainyun/hello-server-for-cicd-test-202511:${{ github.sha }}
 
   deploy:
     needs: build-and-push
