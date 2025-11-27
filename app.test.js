@@ -9,7 +9,7 @@ describe('Express App Tests', () => {
   test('GET / should return Hello World message', async () => {
     const response = await request(app).get('/');
     expect(response.statusCode).toBe(200);
-    expect(response.body).toEqual({ message: 'argoCD!!' });
+    expect(response.body).toEqual({ message: 'argo CD!!!!' });
   });
 
   test('GET /health should return healthy status', async () => {
