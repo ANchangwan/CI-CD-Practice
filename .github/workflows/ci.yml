@@ -45,7 +45,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Update image tag and push
         run: |
           sed -i "s|image: anchangwan/hello-server-for-cicd-test-20251126:.*|image: anchangwan/hello-server-for-cicd-test-20251126:${{ github.sha }}|g" k8s/deployment.yaml
