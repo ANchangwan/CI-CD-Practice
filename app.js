@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'healthy' });
+  res.status(200).json({ status: 'healthy!!' });
 });
 
 const server = app.listen(PORT, () => {
