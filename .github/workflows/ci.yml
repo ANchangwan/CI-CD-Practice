@@ -45,7 +45,7 @@ jobs:
     steps:
       - name: Deploy new image
         run: |
-          anchangwan/hello-server-for-cicd-test-20251126:latest
+          docker pull anchangwan/hello-server-for-cicd-test-20251126:latest
           docker stop my-app || true
           docker rm my-app || true
           docker run -d --name my-app -p 3000:3000 anchangwan/hello-server-for-cicd-test-20251126:latest
