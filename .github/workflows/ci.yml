@@ -54,5 +54,5 @@ jobs:
           git add k8s/deployment.yaml
           git commit -m "[skip ci] Update image tag to eca81bb2f72d4df2651674acc32c84f2df5659a6"
           git push
-  
+    
 
