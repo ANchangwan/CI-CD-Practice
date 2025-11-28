@@ -178,3 +178,107 @@
 [2025-11-28 10:27:19Z INFO SelfUpdater] Attempt 1: save latest runner into /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/runner1.tar.gz.
 [2025-11-28 10:27:19Z INFO SelfUpdater] Download runner: begin download
 [2025-11-28 10:27:19Z INFO SelfUpdater] Downloading https://github.com/actions/runner/releases/download/v2.329.0/actions-runner-osx-x64-2.329.0.tar.gz
+[2025-11-28 10:28:30Z INFO SelfUpdater] Download runner: finished download
+[2025-11-28 10:28:31Z INFO SelfUpdater] Validated Runner Hash matches /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/runner1.tar.gz : c5a14e84b358c72ca83bf14518e004a8ad195cc440322fbca2a4fec7649035c7
+[2025-11-28 10:28:31Z INFO SelfUpdater] Which: 'tar'
+[2025-11-28 10:28:31Z INFO SelfUpdater] Location: '/usr/bin/tar'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper] Starting process:
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/runner1.tar.gz"'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Working directory: '/Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-11-28 10:28:31Z INFO ProcessInvokerWrapper] Process started with process id 21950, waiting for process exit.
+[2025-11-28 10:28:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-11-28 10:28:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-11-28 10:28:33Z INFO ProcessInvokerWrapper] Finished process 21950 with exit code 0, and elapsed time 00:00:02.2889404.
+[2025-11-28 10:28:33Z INFO SelfUpdater] Finished getting latest runner package at: /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update.
+[2025-11-28 10:28:33Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:33Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:33Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/bin to /Users/waney/Documents/메가존/argoCD/actions-runner/bin.2.329.0.
+[2025-11-28 10:28:33Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:33Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:33Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/externals to /Users/waney/Documents/메가존/argoCD/actions-runner/externals.2.329.0.
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy any remaining .sh/.cmd files into runner root.
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/safe_sleep.sh to /Users/waney/Documents/메가존/argoCD/actions-runner/safe_sleep.sh
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/run-helper.sh.template to /Users/waney/Documents/메가존/argoCD/actions-runner/run-helper.sh.template
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/run-helper.cmd.template to /Users/waney/Documents/메가존/argoCD/actions-runner/run-helper.cmd.template
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/run.sh to /Users/waney/Documents/메가존/argoCD/actions-runner/run.sh
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/config.sh to /Users/waney/Documents/메가존/argoCD/actions-runner/config.sh
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:37Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:37Z INFO SelfUpdater] Copy /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update/env.sh to /Users/waney/Documents/메가존/argoCD/actions-runner/env.sh
+[2025-11-28 10:28:37Z INFO SelfUpdater] Download latest runner and unzip into runner root.
+[2025-11-28 10:28:37Z INFO Terminal] WRITE LINE: Waiting for current job finish running.
+[2025-11-28 10:28:37Z INFO SelfUpdater] DownloadUrl: https://github.com/actions/runner/releases/download/v2.329.0/actions-runner-osx-x64-2.329.0.tar.gz
+[2025-11-28 10:28:37Z INFO SelfUpdater] RuntimeTrimmed: False
+[2025-11-28 10:28:37Z INFO SelfUpdater] ExternalsTrimmed: False
+[2025-11-28 10:28:37Z INFO SelfUpdater] PackageDownloadTime: 70935ms
+[2025-11-28 10:28:37Z INFO SelfUpdater] Attempts: 1
+[2025-11-28 10:28:37Z INFO SelfUpdater] PackageSize: 123MB
+[2025-11-28 10:28:37Z INFO SelfUpdater] ValidateHashTime: 542ms
+[2025-11-28 10:28:37Z INFO SelfUpdater] PackageExtractTime: 2321ms
+[2025-11-28 10:28:37Z INFO SelfUpdater] CopyRunnerToRootTime: 3251ms
+[2025-11-28 10:28:38Z INFO SelfUpdater] All running job has exited.
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:38Z INFO SelfUpdater] Delete old version runner backup.
+[2025-11-28 10:28:38Z INFO Terminal] WRITE LINE: Generate and execute update script.
+[2025-11-28 10:28:38Z INFO SelfUpdater] DeleteRunnerBackupTime: 8ms
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Diag': '/Users/waney/Documents/메가존/argoCD/actions-runner/_diag'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:28:38Z INFO HostContext] Well known directory 'Work': '/Users/waney/Documents/메가존/argoCD/actions-runner/_work'
+[2025-11-28 10:28:38Z INFO SelfUpdater] Generate update script into: /Users/waney/Documents/메가존/argoCD/actions-runner/_work/_update.sh
+[2025-11-28 10:28:38Z INFO SelfUpdater] Which: 'bash'
+[2025-11-28 10:28:38Z INFO SelfUpdater] Location: '/opt/homebrew/bin/bash'
+[2025-11-28 10:28:38Z INFO SelfUpdater] Update script start running
+[2025-11-28 10:28:38Z INFO Terminal] WRITE LINE: Runner will exit shortly for update, should be back online within 10 seconds.
+[2025-11-28 10:28:38Z INFO SelfUpdater] TotalUpdateTime: 82575ms
+[2025-11-28 10:28:38Z INFO Terminal] WRITE LINE: Runner update process finished.
+[2025-11-28 10:28:38Z INFO Runner] Auto update task finished at backend, an runner update is ready to apply exit the current runner instance.
+[2025-11-28 10:28:38Z INFO Runner] Stop message queue looping.
+[2025-11-28 10:28:38Z WARN GitHubActionsService] GET request to https://pipelinesghubeus26.actions.githubusercontent.com/CyFmIdqorp5hd8fkPo8uSU33CzrWuxHFWEnVsY33OBwahZiTPV/_apis/distributedtask/pools/1/messages?sessionId=2a524674-611a-41d5-8988-db07a51aaa11&lastMessageId=1&status=Online has been cancelled.
+[2025-11-28 10:28:38Z INFO MessageListener] Get next message has been cancelled.
+[2025-11-28 10:28:38Z INFO Runner] Ignore any exception after cancel message loop. System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (89): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+   at GitHub.Runner.Listener.Runner.RunAsync(RunnerSettings settings, Boolean runOnce)
+[2025-11-28 10:28:38Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2025-11-28 10:28:39Z INFO Listener] Runner execution has finished with return code 3
