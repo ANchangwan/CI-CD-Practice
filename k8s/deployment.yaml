@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: anchangwan/hello-server-for-cicd-test-20251126:cb7bc3e2ffdbacca2c6ec8d05b588dd11e515152
+        image: anchangwan/hello-server-for-cicd-test-20251126:67ca04b5cc0a70cfb12e9d1b273182ef1242b2e2
         ports:
         - containerPort: 3000
 ---
