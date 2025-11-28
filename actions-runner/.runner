@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 22,
+  "agentName": "anchang-wan-ui-MacBookPro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/CyFmIdqorp5hd8fkPo8uSU33CzrWuxHFWEnVsY33OBwahZiTPV/",
+  "gitHubUrl": "https://github.com/ANchangwan/CI-CD-Practice",
+  "workFolder": "_work"
+}

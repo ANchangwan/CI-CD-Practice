@@ -1,0 +1,211 @@
+[2025-11-28 10:26:44Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO HostContext] Well known config file 'Credentials': '/Users/waney/Documents/메가존/argoCD/actions-runner/.credentials'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO HostContext] Well known config file 'Runner': '/Users/waney/Documents/메가존/argoCD/actions-runner/.runner'
+[2025-11-28 10:26:44Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2025-11-28 10:26:44Z INFO Listener] RuntimeInformation: Darwin 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:55:06 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6020.
+[2025-11-28 10:26:44Z INFO Listener] Version: 2.295.0
+[2025-11-28 10:26:44Z INFO Listener] Commit: 78d13b4c96e0857c1323febcb0cac7d8f5cf5822
+[2025-11-28 10:26:44Z INFO Listener] Culture: 
+[2025-11-28 10:26:44Z INFO Listener] UI Culture: 
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO Listener] Validating directory permissions for: '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO CommandLineParser] Parse
+[2025-11-28 10:26:44Z INFO CommandLineParser] Parsing 5 args
+[2025-11-28 10:26:44Z INFO CommandLineParser] parsing argument
+[2025-11-28 10:26:44Z INFO CommandLineParser] HasArgs: False
+[2025-11-28 10:26:44Z INFO CommandLineParser] Adding Command: configure
+[2025-11-28 10:26:44Z INFO CommandLineParser] parsing argument
+[2025-11-28 10:26:44Z INFO CommandLineParser] HasArgs: True
+[2025-11-28 10:26:44Z INFO CommandLineParser] arg: url
+[2025-11-28 10:26:44Z INFO CommandLineParser] parsing argument
+[2025-11-28 10:26:44Z INFO CommandLineParser] HasArgs: True
+[2025-11-28 10:26:44Z INFO CommandLineParser] Adding option 'url': 'https://github.com/ANchangwan/CI-CD-Practice'
+[2025-11-28 10:26:44Z INFO CommandLineParser] parsing argument
+[2025-11-28 10:26:44Z INFO CommandLineParser] HasArgs: True
+[2025-11-28 10:26:44Z INFO CommandLineParser] arg: token
+[2025-11-28 10:26:44Z INFO CommandLineParser] parsing argument
+[2025-11-28 10:26:44Z INFO CommandLineParser] HasArgs: True
+[2025-11-28 10:26:44Z INFO CommandLineParser] Adding option 'token': '***'
+[2025-11-28 10:26:44Z INFO Listener] Arguments parsed
+[2025-11-28 10:26:44Z INFO Runner] ExecuteCommand
+[2025-11-28 10:26:44Z INFO ConfigurationStore] currentAssemblyLocation: /Users/waney/Documents/메가존/argoCD/actions-runner/bin/Runner.Listener.dll
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO ConfigurationStore] binPath: /Users/waney/Documents/메가존/argoCD/actions-runner/bin
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO ConfigurationStore] RootFolder: /Users/waney/Documents/메가존/argoCD/actions-runner
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO HostContext] Well known config file 'Runner': '/Users/waney/Documents/메가존/argoCD/actions-runner/.runner'
+[2025-11-28 10:26:44Z INFO ConfigurationStore] ConfigFilePath: /Users/waney/Documents/메가존/argoCD/actions-runner/.runner
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO HostContext] Well known config file 'Credentials': '/Users/waney/Documents/메가존/argoCD/actions-runner/.credentials'
+[2025-11-28 10:26:44Z INFO ConfigurationStore] CredFilePath: /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_migrated'
+[2025-11-28 10:26:44Z INFO ConfigurationStore] MigratedCredFilePath: /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_migrated
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:44Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:44Z INFO HostContext] Well known config file 'Service': '/Users/waney/Documents/메가존/argoCD/actions-runner/.service'
+[2025-11-28 10:26:44Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/waney/Documents/메가존/argoCD/actions-runner/.service
+[2025-11-28 10:26:44Z INFO CommandSettings] Flag 'help': 'False'
+[2025-11-28 10:26:44Z INFO CommandSettings] Flag 'version': 'False'
+[2025-11-28 10:26:44Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-11-28 10:26:44Z INFO CommandSettings] Flag 'check': 'False'
+[2025-11-28 10:26:44Z INFO CommandSettings] Command 'configure': 'True'
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE: |                       
+[2025-11-28 10:26:44Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE:                         |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-11-28 10:26:44Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-11-28 10:26:44Z INFO ConfigurationManager] ConfigureAsync
+[2025-11-28 10:26:44Z INFO ConfigurationStore] IsConfigured()
+[2025-11-28 10:26:44Z INFO ConfigurationStore] IsConfigured: False
+[2025-11-28 10:26:44Z INFO ConfigurationManager] Is configured: False
+[2025-11-28 10:26:44Z INFO CommandSettings] Arg 'url': 'https://github.com/ANchangwan/CI-CD-Practice'
+[2025-11-28 10:26:44Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-11-28 10:26:44Z INFO CommandSettings] Arg 'token': '***'
+[2025-11-28 10:26:44Z INFO CommandSettings] Remove token from Arg dictionary.
+[2025-11-28 10:26:45Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2025-11-28 10:26:45Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-11-28 10:26:45Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-11-28 10:26:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-11-28 10:26:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-11-28 10:26:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-11-28 10:26:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-11-28 10:26:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-11-28 10:26:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-11-28 10:26:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-11-28 10:26:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-11-28 10:26:48Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:26:48Z INFO ConfigurationManager] Test Connection complete.
+[2025-11-28 10:26:48Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:48Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:48Z INFO HostContext] Well known config file 'RSACredentials': '/Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams'
+[2025-11-28 10:26:48Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2025-11-28 10:26:48Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams
+[2025-11-28 10:26:48Z INFO RSAFileKeyManager] Which: 'chmod'
+[2025-11-28 10:26:48Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2025-11-28 10:26:49Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:26:49Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper] Starting process:
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Working directory: '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper] Process started with process id 20858, waiting for process exit.
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-11-28 10:26:49Z INFO ProcessInvokerWrapper] Finished process 20858 with exit code 0, and elapsed time 00:00:00.2846406.
+[2025-11-28 10:26:49Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams
+[2025-11-28 10:26:50Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-11-28 10:26:50Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-11-28 10:26:50Z INFO PromptManager] ReadValue
+[2025-11-28 10:26:50Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-11-28 10:26:50Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-11-28 10:26:50Z INFO Terminal] READ LINE
+[2025-11-28 10:26:52Z INFO Terminal] Read value: ''
+[2025-11-28 10:26:52Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-11-28 10:26:52Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:26:52Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-11-28 10:26:52Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-11-28 10:26:52Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-11-28 10:26:52Z INFO CommandSettings] Arg 'name': ''
+[2025-11-28 10:26:52Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-11-28 10:26:52Z INFO PromptManager] ReadValue
+[2025-11-28 10:26:52Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-11-28 10:26:52Z INFO Terminal] WRITE: [press Enter for anchang-wan-ui-MacBookPro] 
+[2025-11-28 10:26:52Z INFO Terminal] READ LINE
+[2025-11-28 10:26:54Z INFO Terminal] Read value: ''
+[2025-11-28 10:26:54Z INFO PromptManager] Falling back to the default: 'anchang-wan-ui-MacBookPro'
+[2025-11-28 10:26:54Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:26:54Z INFO CommandSettings] Arg 'labels': ''
+[2025-11-28 10:26:54Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-11-28 10:26:54Z INFO PromptManager] ReadValue
+[2025-11-28 10:26:54Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-11-28 10:26:54Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-11-28 10:26:54Z INFO Terminal] READ LINE
+[2025-11-28 10:26:55Z INFO Terminal] Read value: ''
+[2025-11-28 10:26:55Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:26:56Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-11-28 10:26:56Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-11-28 10:26:56Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-11-28 10:26:56Z INFO ConfigurationStore] Saving OAuth credential @ /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials
+[2025-11-28 10:26:56Z INFO ConfigurationStore] Credentials Saved.
+[2025-11-28 10:26:56Z INFO ConfigurationStore] HasCredentials()
+[2025-11-28 10:26:56Z INFO ConfigurationStore] stored True
+[2025-11-28 10:26:56Z INFO CredentialManager] GetCredentialProvider
+[2025-11-28 10:26:56Z INFO CredentialManager] Creating type OAuth
+[2025-11-28 10:26:56Z INFO CredentialManager] Creating credential type: OAuth
+[2025-11-28 10:26:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams
+[2025-11-28 10:26:57Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-11-28 10:26:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-11-28 10:26:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-11-28 10:26:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-11-28 10:26:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-11-28 10:26:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-11-28 10:26:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-11-28 10:26:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-11-28 10:26:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-11-28 10:26:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams
+[2025-11-28 10:26:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/waney/Documents/메가존/argoCD/actions-runner/.credentials_rsaparams
+[2025-11-28 10:26:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-11-28 10:26:59Z INFO CommandSettings] Arg 'work': ''
+[2025-11-28 10:26:59Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-11-28 10:26:59Z INFO PromptManager] ReadValue
+[2025-11-28 10:26:59Z INFO Terminal] WRITE: Enter name of work folder: 
+[2025-11-28 10:26:59Z INFO Terminal] WRITE: [press Enter for _work] 
+[2025-11-28 10:26:59Z INFO Terminal] READ LINE
+[2025-11-28 10:27:03Z INFO Terminal] Read value: ''
+[2025-11-28 10:27:03Z INFO PromptManager] Falling back to the default: '_work'
+[2025-11-28 10:27:03Z INFO ConfigurationStore] Saving runner settings.
+[2025-11-28 10:27:03Z INFO ConfigurationStore] Settings Saved.
+[2025-11-28 10:27:03Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:27:03Z INFO Terminal] WRITE LINE: 
+[2025-11-28 10:27:03Z INFO OsxServiceControlManager] Service name 'actions.runner.ANchangwan-CI-CD-Practice.anchang-wan-ui-MacBookPro' display name 'GitHub Actions Runner (ANchangwan-CI-CD-Practice.anchang-wan-ui-MacBookPro)' will be used for service configuration.
+[2025-11-28 10:27:03Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:27:03Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:27:03Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:27:03Z INFO HostContext] Well known directory 'Bin': '/Users/waney/Documents/메가존/argoCD/actions-runner/bin'
+[2025-11-28 10:27:03Z INFO HostContext] Well known directory 'Root': '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:27:03Z INFO UnixUtil] Which: 'chmod'
+[2025-11-28 10:27:03Z INFO UnixUtil] Location: '/bin/chmod'
+[2025-11-28 10:27:03Z INFO UnixUtil] Running /bin/chmod 755 "/Users/waney/Documents/메가존/argoCD/actions-runner/svc.sh"
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper] Starting process:
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/waney/Documents/메가존/argoCD/actions-runner/svc.sh"'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Working directory: '/Users/waney/Documents/메가존/argoCD/actions-runner'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper] Process started with process id 20886, waiting for process exit.
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-11-28 10:27:03Z INFO ProcessInvokerWrapper] Finished process 20886 with exit code 0, and elapsed time 00:00:00.0405047.
+[2025-11-28 10:27:03Z INFO Listener] Runner execution has finished with return code 0
